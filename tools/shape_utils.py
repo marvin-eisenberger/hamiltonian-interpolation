@@ -106,8 +106,6 @@ def load_faust_pair(i, offset=0.5*torch.ones([3], device=device, dtype=torch.flo
     """Load a pair of faust shapes. The required format of the file is described below"""
 
     assert i >= 0 and i < 90, "index out of range for faust"
-    
-    print(i)
 
     file_load = data_folder_faust + "FAUST_" + str(i).zfill(3) + "_raw.mat"
 
