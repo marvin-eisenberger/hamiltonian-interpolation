@@ -3,14 +3,11 @@
 * Implementation of "Hamiltonian Dynamics for Real-World Shape Interpolation" (ECCV 20). Authors: Eisenberger, Cremers. arXiv: https://arxiv.org/abs/2004.05199.
 * Vanilla implementation of "Divergence-Free Shape Correspondence by Deformation" (SGP 19). Authors: Eisenberger, Lähner, Cremers. https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13785
 
-<details><summary>Requirements</summary>
-
+# Requirements
 * Python Version >= 3.6
 * PyTorch 1.4
 * CUDA 9.2 or 10.1
 * torch-geometric library
-
-</details>
 
 
 # Run the test script:
