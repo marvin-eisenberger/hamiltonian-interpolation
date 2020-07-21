@@ -64,12 +64,7 @@ def run_single(shape_x, shape_y, method, rigid_align=True, param=None):
 
     print(param.__dict__)
 
-    if subsample:
-        E = interpol.interpolate()
-    else:
-        interpol_multi = InterpolationMultiscale(interpol, param, num_it_super=num_it_super)
-        interpol_module = interpol_multi.interpolate()
-        E = interpol_multi.E
+    E = interpol.interpolate()
 
 
     vert_sequence = interpol_module.get_vert_sequence().detach()
